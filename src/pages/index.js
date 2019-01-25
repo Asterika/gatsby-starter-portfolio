@@ -13,6 +13,11 @@ import pic04 from '../assets/images/pic04.jpg'
 import pic12 from "../assets/images/pic12.jpeg"
 import pic13 from "../assets/images/pic13.png"
 // import pic14 from "../assets/images/pic14.png"
+import pic15 from "../assets/images/pic15.jpg"
+import pic16 from "../assets/images/pic16.png"
+import pic17 from "../assets/images/pic17.png"
+// import pic18 from "../assets/images/pic18.png"
+import pic19 from "../assets/images/pic19.png"
 
 class HomeIndex extends React.Component {
     render() {
@@ -32,28 +37,28 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${pic17})`}}>
                             <header className="major">
                                 <h3>Past Projects</h3>
                                 {/* <p>A gallery of apps</p> */}
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${pic19})`}}>
                             <header className="major">
                                 <h3>In Progress...</h3>
                                 {/* <p>A list of current work</p> */}
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${pic15})`}}>
                             <header className="major">
                                 <h3>Tech Proficiencies</h3>
                                 {/* <p>Languages, Frameworks, and Stacks</p> */}
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${pic16})`}}>
                             <header className="major">
                                 <h3>Resume</h3>
                                 <p></p>
