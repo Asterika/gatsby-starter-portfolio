@@ -1,10 +1,17 @@
-# gatsby-starter-forty
+# Developer Portfolio - Krystal Williams
 
-**This is a starter for Gatsby.js V2.**
+## Introduction to the Technology
 
-**The older V1 version of this starter can be found on the v1 branch**
+**This portfolio revision is my first foray into [GatsbyJS](https://www.gatsbyjs.org/), "a static PWA (progressive web app) generator" that "lets you build blazing fast sites with your data, whatever the source."
 
-Gatsby.js V2 starter based on the Forty site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+**For this first project, I'm customizing one of the Gatsby V2 starters: [gatsby-starter-forty](https://www.gatsbyjs.org/starters/codebushi/gatsby-starter-forty/) designed by HTML5 UP and made available courtesy the [GatsbyJS Starter Library](https://www.gatsbyjs.org/starters/?v=2)**
+
+## Contents
+
+This portfolio contains my projects, proficiencies, and current code interests.
+
+
+# Information Provided By Gatsby JS:
 
 ## Preview
 
