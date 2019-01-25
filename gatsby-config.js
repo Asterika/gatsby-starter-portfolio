@@ -1,3 +1,6 @@
+const path = require(`path`)
+// _dirname = path.resolve(path.dirname(''));
+
 module.exports = {
   siteMetadata: {
     title: "Gatsby Starter - Forty V2",
@@ -6,6 +9,25 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-remark-copy-linked-files`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        maxWidth: 1080,
+      },
+    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `pages`,
+    //     path: `${_dirname}/src/pages/`,
+    //     // name: `images`,
+    //     // path: path.join(_dirname, `src`, `images`),
+    //   },
+    // },
+    // `gatsby-transformer-pdf`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
