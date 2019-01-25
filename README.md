@@ -2,9 +2,9 @@
 
 ## Introduction to the Technology
 
-**This portfolio revision is my first foray into [GatsbyJS](https://www.gatsbyjs.org/), "a static PWA (progressive web app) generator" that "lets you build blazing fast sites with your data, whatever the source."
+This portfolio revision is my first foray into [GatsbyJS](https://www.gatsbyjs.org/), "a static PWA (progressive web app) generator" that "lets you build blazing fast sites with your data, whatever the source."
 
-**For this first project, I'm customizing one of the Gatsby V2 starters: [gatsby-starter-forty](https://www.gatsbyjs.org/starters/codebushi/gatsby-starter-forty/) designed by HTML5 UP and made available courtesy the [GatsbyJS Starter Library](https://www.gatsbyjs.org/starters/?v=2)**
+For this first project, I'm customizing one of the Gatsby V2 starters: [gatsby-starter-forty](https://www.gatsbyjs.org/starters/codebushi/gatsby-starter-forty/) designed by HTML5 UP and made available courtesy the [GatsbyJS Starter Library](https://www.gatsbyjs.org/starters/?v=2)
 
 ## Contents
 
