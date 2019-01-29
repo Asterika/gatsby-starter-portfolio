@@ -4,15 +4,19 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+// import pic08 from '../assets/images/pic08.jpg'
+// import pic09 from '../assets/images/pic09.jpg'
+// import pic10 from '../assets/images/pic10.jpg'
+import pic20 from  "../assets/images/pic20.png"
+import pic21 from "../assets/images/pic21.png"
+import pic22 from "../assets/images/pic22.png"
+import pic23 from "../assets/images/pic23.png"
 
-const Landing = (props) => (
+const PastProjects = (props) => (
     <Layout>
         <Helmet>
             <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Landing Page" />
+            <meta name="description" content="Past Projects Page" />
         </Helmet>
 
         <BannerLanding />
@@ -29,7 +33,7 @@ const Landing = (props) => (
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
+                        <img src={pic20} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -45,7 +49,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                        <img src={pic21} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -61,7 +65,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                    <img src={pic22} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -77,7 +81,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                    <img src={pic23} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -97,4 +101,4 @@ const Landing = (props) => (
     </Layout>
 )
 
-export default Landing
+export default PastProjects

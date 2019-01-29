@@ -20,6 +20,8 @@ import pic17 from "../assets/images/pic17.png"
 import pic19 from "../assets/images/pic19.png"
 
 
+
+
 class HomeIndex extends React.Component {
     render() {
 
@@ -41,16 +43,16 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic19})`}}>
                             <header className="major">
                                 <h3>In Progress...</h3>
-                                <p>A list of current work</p>
+                                <p>Current projects</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic17})`}}>
                             <header className="major">
                                 <h3>Past Projects</h3>
-                                <p>A gallery of apps</p>
+                                <p>Gallery of apps</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/pastprojects" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic15})`}}>
                             <header className="major">
@@ -62,14 +64,14 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic16})`}}>
                             <header className="major">
                                 <h3>Resume</h3>
-                                <p>A professional career summary</p>
+                                <p>Career Summary</p>
                             </header>
                             <Link to="/resume" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic12})`}}>
                             <header className="major">
                                 <h3>About</h3>
-                                <p></p>
+                                <p>About Me</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
