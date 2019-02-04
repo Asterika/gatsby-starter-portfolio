@@ -1,0 +1,13 @@
+.Thumbnail, .ThumbnailLong {
+  border: 2px solid aliceblue;
+  display: inline;
+  height: 280px;
+  margin: 12px;
+  width: 380px;
+}
+
+.ThumbnailLong {
+  height: 350px;
+  margin: 30px;
+  width: 240px;
+}

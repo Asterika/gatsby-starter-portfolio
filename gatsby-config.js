@@ -1,5 +1,6 @@
 const path = require(`path`)
-// _dirname = path.resolve(path.dirname(''));
+_dirname = path.resolve(path.dirname(''));
+
 
 module.exports = {
   siteMetadata: {
@@ -8,6 +9,13 @@ module.exports = {
     description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(_dirname, `src`, `assets/images`),
+      },
+    },
     'gatsby-plugin-react-helmet',
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
